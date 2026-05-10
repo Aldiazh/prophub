@@ -1,0 +1,12 @@
+{
+  "name": "prophub-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter @prophub/web dev",
+    "build": "pnpm --filter @prophub/web build"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.4",
+    "dotenv": "^17.4.2"
+  }
+}
